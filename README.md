@@ -39,18 +39,33 @@
 
 - 회원가입
 - 아이디 및 비밀번호 중복, 유효성 체크
-- 카카오 API
+- 다음 주소 API를 이용해 회원 주소 입력
 <br>
 
 ![회원가입](https://user-images.githubusercontent.com/103329327/178718323-0ed22a25-91a8-408b-99f6-be18757e9fec.gif)
+<br><br>
+
+- 회원정보 수정(최신 정보로 변경) 및 비밀 번호 수정 시 비밀번호 체크 후 동작 실행
+- 회원 탈퇴 시 비밀번호 체크 후 탈퇴 수행
+<br>
+
+회원정보수정
+
+![회원정보수정](https://user-images.githubusercontent.com/103329327/178718294-4f7d8453-62b1-45a9-ad2b-4a5359046be5.gif)
+
+비밀번호 변경
+
+![비밀번호변경](https://user-images.githubusercontent.com/103329327/178718217-ebcd5ce1-e082-4bc7-811c-66e53647a5ed.gif)
+
+회원탈퇴
+
+![탈퇴](https://user-images.githubusercontent.com/103329327/178718361-799e730d-27c2-429b-bdd8-2c25d1fea652.gif)
 
 
+3. 게시판
+- 글쓰기 유효성 체크 후 글쓰기 동작 수행
 
-
-
-
-
-
+![관리자페이지](https://user-images.githubusercontent.com/103329327/178718269-976f634e-6cca-4476-a8a1-a036255afe3b.gif)
 
 
 
