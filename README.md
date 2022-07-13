@@ -23,8 +23,11 @@
 <br><br><br>
 
 ## 💬 ER 다이어그램
-<img src="https://user-images.githubusercontent.com/103329327/178713950-ecbed6ad-c7f0-470c-a7ee-5da17b82d24e.png" width="100%">
+<img src="https://user-images.githubusercontent.com/103329327/178713950-ecbed6ad-c7f0-470c-a7ee-5da17b82d24e.png" width="80%" height="700px">
 
 ## 🎞 시연 영상
 
 메인페이지
+
+
+
