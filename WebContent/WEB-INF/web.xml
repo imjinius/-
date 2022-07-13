@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>collegestudent</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <resource-ref>
+    <description>seastupool</description>
+    <res-ref-name>jdbc/seastu</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  
+  <!-- 멤버 관리 -->
+  <servlet>
+    <servlet-name>MemberController</servlet-name>
+    <servlet-class>seastu.member.action.MemberController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MemberController</servlet-name>
+    <url-pattern>*.mem</url-pattern>
+  </servlet-mapping>
+  <!-- 멤버 관리 -->
+  
+  
+  <!-- admin -->
+  <servlet>
+    <servlet-name>AdminController</servlet-name>
+    <servlet-class>seastu.admin.action.AdminController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminController</servlet-name>
+    <url-pattern>*.ad</url-pattern>
+  </servlet-mapping>
+  <!-- admin -->
+  
+  
+  <!-- 중고거래게시판 관리 -->
+  <servlet>
+    <servlet-name>TradeController</servlet-name>
+    <servlet-class>seastu.trade.action.TradeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TradeController</servlet-name>
+    <url-pattern>*.tr</url-pattern>
+  </servlet-mapping>
+  <!-- 중고거래게시판 관리 -->
+  
+  
+  
+  <!-- 게시판 관리 -->
+  <servlet>
+    <servlet-name>BoardController</servlet-name>
+    <servlet-class>seastu.board.action.BoardController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BoardController</servlet-name>
+    <url-pattern>*.bo</url-pattern>
+  </servlet-mapping>
+  <!-- 게시판 관리 -->
+  
+  
+  <!-- 메인메뉴 관리 -->
+  <servlet>
+    <servlet-name>MainController</servlet-name>
+    <servlet-class>seastu.main.action.MainController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainController</servlet-name>
+    <url-pattern>*.main</url-pattern>
+  </servlet-mapping>
+  <!-- 메인메뉴 관리 -->
+
+	
+  <!-- 메일관련 관리 -->  
+  <servlet>
+	 <servlet-name>MailController</servlet-name>
+	 <servlet-class>seastu.mail.action.MailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MailController</servlet-name>
+    <url-pattern>*.ma</url-pattern>
+  </servlet-mapping>
+  <!-- 메일관련 관리 -->  
+  
+  
+  <!-- 채팅관련 관리 -->  
+  <servlet>
+	 <servlet-name>ChatController</servlet-name>
+	 <servlet-class>seastu.chat.action.ChatController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChatController</servlet-name>
+    <url-pattern>*.ch</url-pattern>
+  </servlet-mapping>
+  <!-- 채팅관련 관리 -->  
+  
+  
+  <!-- 댓글관련 관리 -->  
+  <servlet>
+	 <servlet-name>ReController</servlet-name>
+	 <servlet-class>seastu.re_board.action.Re_Board_Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReController</servlet-name>
+    <url-pattern>*.re</url-pattern>
+  </servlet-mapping>
+  <!-- 댓글관련 관리 -->  
+  
+  
+  <filter>
+    <filter-name>SetUTF</filter-name>
+    <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>SetUTF</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+
+
+  
+  
+  
+</web-app>
