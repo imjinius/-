@@ -35,6 +35,13 @@
 ![메인](https://user-images.githubusercontent.com/103329327/178718185-d6dc207f-020f-488b-a150-e9f2a4accac8.gif)
 
 
+- 구글 메일 API를 이용하여 관리자에게 문의 기능 구현
+
+![이메일문의](https://user-images.githubusercontent.com/103329327/178718335-20bf41d9-fd3a-47a6-9c66-73e55cf52aa5.gif)
+
+---
+
+
 2. 회원
 
 - 회원가입
@@ -61,11 +68,26 @@
 
 ![탈퇴](https://user-images.githubusercontent.com/103329327/178718361-799e730d-27c2-429b-bdd8-2c25d1fea652.gif)
 
+---
 
 3. 게시판
+3-1. 자유게시판
 - 글쓰기 유효성 체크 후 글쓰기 동작 수행
+- 글쓴이만 수정/삭제 버튼 보이게 함
 
-![관리자페이지](https://user-images.githubusercontent.com/103329327/178718269-976f634e-6cca-4476-a8a1-a036255afe3b.gif)
+![게시판 CRUD](https://user-images.githubusercontent.com/103329327/178726328-6a801b6a-9b5b-413c-b94a-b9ac61878c81.gif)
+
+<br><br>
+
+- 키워드 입력시 글제목으로 검색하여 목록 출력
+- 댓글 class의 index를 
+
+
+- 중고 거래 게시판에서 판매자에게 쪽지 기능으로 문의
+- seastu_chat의 sender와 receiver 컬럼으로 수신쪽지, 발신쪽지 색상 다르게 함
+- 메인페이지의 쪽지함을 통해서 확인 가능
+
+![쪽지](https://user-images.githubusercontent.com/103329327/178718374-13c3a759-3434-4fea-a8a1-bba7a19966df.gif)
 
 
 
