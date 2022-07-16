@@ -29,15 +29,16 @@
 
 1. 메인페이지
 - 인기글
-- ajax 활용. 실시간 전국 날씨 출력<br>
+- ajax 활용. 실시간 전국 날씨 출력(기온, 강수 등등)<br>
 
 
-![메인](https://user-images.githubusercontent.com/103329327/178718185-d6dc207f-020f-488b-a150-e9f2a4accac8.gif)
+![메인](https://user-images.githubusercontent.com/103329327/179348279-4f9a2fb7-3bac-44c9-a0f2-359d7b2289ca.PNG)
 
 
 - 구글 메일 API를 이용하여 관리자에게 문의 기능 구현
 
-![이메일문의](https://user-images.githubusercontent.com/103329327/178718335-20bf41d9-fd3a-47a6-9c66-73e55cf52aa5.gif)
+![메일문의](https://user-images.githubusercontent.com/103329327/179348920-bd6c00b4-20f3-4d93-8a14-e03c0d602fa0.png)
+![메일확인](https://user-images.githubusercontent.com/103329327/179348927-c46e3ce6-90f0-41a8-890e-9f8030779659.PNG)
 
 ---
 
@@ -49,7 +50,7 @@
 - 다음 주소 API를 이용해 회원 주소 입력
 <br>
 
-![회원가입](https://user-images.githubusercontent.com/103329327/178718323-0ed22a25-91a8-408b-99f6-be18757e9fec.gif)
+![회원가입](https://user-images.githubusercontent.com/103329327/179349001-1046e34f-41a7-47e6-9f3f-37ea4c1f4674.PNG)
 <br><br>
 
 - 회원정보 수정(최신 정보로 변경) 및 비밀 번호 수정 시 비밀번호 체크 후 동작 실행
