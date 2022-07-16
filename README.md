@@ -42,7 +42,9 @@
 ![메일문의](https://user-images.githubusercontent.com/103329327/179348920-bd6c00b4-20f3-4d93-8a14-e03c0d602fa0.png)
 ![메일확인](https://user-images.githubusercontent.com/103329327/179348927-c46e3ce6-90f0-41a8-890e-9f8030779659.PNG)
 
----
+<br><br>
+
+----------
 
 
 2. 회원
