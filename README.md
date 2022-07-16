@@ -27,7 +27,7 @@
 ## 💬 ER 다이어그램
 <img src="https://user-images.githubusercontent.com/103329327/178713950-ecbed6ad-c7f0-470c-a7ee-5da17b82d24e.png" width="80%" height="700px">
 
-## 🎞 주요 
+## 🎞 주요 기능
 
 1. 메인페이지
 - 인기글
@@ -110,8 +110,10 @@
 <img src="https://user-images.githubusercontent.com/103329327/179349995-8424c1e4-edd5-4c53-a86b-38dd5eae4e6e.PNG" height="500px">
 
 - 글 수정을 통해 판매중/판매완료를 지정할 수 있음
-
+- 판매완료 시 이미지 다르게 표시
 <img src="https://user-images.githubusercontent.com/103329327/179350001-6effaba0-6aba-43d0-bb1e-95715a3e2ab1.PNG" height="500px">
+<img src="https://user-images.githubusercontent.com/103329327/179350827-00d2f308-1993-43f3-9da0-fa6a3e7deb64.PNG" height="500px">
+
 
 
 - 책 거래는 쪽지 기능을 통해 이루어짐
@@ -133,13 +135,14 @@
 
 <img src="https://user-images.githubusercontent.com/103329327/179350477-99189449-20eb-4ef0-9279-65b76f6ab219.PNG" height="500px">
 
-- 인기글 적용 후
+- 인기글 적용 후 -> 메인에서 실시간으로 바뀜
 
-<img src="https://user-images.githubusercontent.com/103329327/179350479-c69dba24-9649-403f-ad9b-900424312e47.PNG" height="500px">
-
-
+<img src="https://user-images.githubusercontent.com/103329327/179350710-c96fa61f-5888-457c-a5b4-f7b924abb729.PNG" height="500px">
 
 
+---
 
+## 💎 프로젝트 후 느낀점
+1. 변수명, 클래스명 등 이름 작성 규칙을 미리 정해놓지 않아 나중에 대폭 수정할 일이 생겼었다. 이를 계기로 프로젝트 초기 기획단계에서 
 
 
