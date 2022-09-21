@@ -37,7 +37,7 @@
 ![메인](https://user-images.githubusercontent.com/103329327/179348279-4f9a2fb7-3bac-44c9-a0f2-359d7b2289ca.PNG)
 
 
-- 구글 메일 API를 이용하여 관리자에게 문의 기능 구현
+- <b>구글 메일 API</b>를 이용하여 관리자에게 문의 기능 구현
 
 ![메일문의](https://user-images.githubusercontent.com/103329327/179348920-bd6c00b4-20f3-4d93-8a14-e03c0d602fa0.png)
 ![메일확인](https://user-images.githubusercontent.com/103329327/179348927-c46e3ce6-90f0-41a8-890e-9f8030779659.PNG)
@@ -58,7 +58,7 @@
 <img src="https://user-images.githubusercontent.com/103329327/179349001-1046e34f-41a7-47e6-9f3f-37ea4c1f4674.PNG" height="500px">
 <br><br>
 
-- 회원정보 수정(최신 정보로 변경) 및 비밀 번호 수정 시 비밀번호 체크 후 동작 실행
+- 회원정보 수정(최신 정보로 변경) 및 비밀 번호 수정 시 <b>비밀번호 체크</b> 후 동작 실행
 - 마찬가지로 유효성 체크 후 수정 기능 동작
 - 회원 탈퇴 시 비밀번호 체크 후 탈퇴 기능 동작
 <br>
@@ -75,7 +75,7 @@
 
 3. 게시판
 3-1. 자유게시판(자유의바다)
-- 첨부 파일 유무에 따라 이모티콘 표시
+- 첨부 파일 유무에 따라 <b>파일 이미지</b> 표시
 
 <img src="https://user-images.githubusercontent.com/103329327/179349457-b4e31ba5-00fc-4efd-b2eb-cd3d34c8234f.PNG" height="500px">
 
@@ -84,12 +84,12 @@
 
 - 글쓰기 유효성 체크 후 글쓰기 동작 수행
 - 글쓴이만 수정/삭제 버튼 보이게 함
-- (첨부파일 존재시) 파일 클릭하면 다운 받을 수 있음
+- (첨부파일 존재시) 파일 클릭 시 다운 가능
 
 <img src="https://user-images.githubusercontent.com/103329327/179349514-e08badfa-5395-451b-86c2-82cee506ceba.PNG" height="500px">
 
 
-- 글 클릭 시, 세션에서 id 값을 받아 좋아요 유무 체크. 비회원일시 좋아요, 댓글기능 제한
+- 글 클릭 시, <b>session 영역에 저장된 id를 비교.</b> 좋아요 유무 체크. 비회원일시 좋아요, 댓글기능 제한
 - 좋아요 클릭시 db에서 id값과 게시판 번호를 비교하여 데이터 존재 시 좋아요 취소. 없을시 좋아요 동작
 <img src="https://user-images.githubusercontent.com/103329327/179349604-6c38dc41-5c28-4a5d-bae9-bed9b38c36c5.PNG" height="500px">
 
@@ -105,7 +105,7 @@
 
 3-2. 중고거래게시판(중고바다)
 
-- 책 검색란에 책제목 입력시 다음 책검색 api를 통해 출판사와 가격정보를 받아올 수 있음. 검색 결과는 최대 20개까지 표시함
+- 책 검색란에 책제목 입력시 <b>다음 책검색 api</b>를 통해 출판사와 가격정보를 받아올 수 있음. 검색 결과는 최대 20개까지 표시함
 
 <img src="https://user-images.githubusercontent.com/103329327/179349995-8424c1e4-edd5-4c53-a86b-38dd5eae4e6e.PNG" height="500px">
 
@@ -116,7 +116,7 @@
 
 
 
-- 책 거래는 쪽지 기능을 통해 이루어짐
+- 책 거래는 <b>쪽지 기능</b>을 통해 이루어짐
 <img src="https://user-images.githubusercontent.com/103329327/179350132-0acf4ff4-e408-47ae-9654-394da3c64ea8.PNG" height="500px">
 
 - receiver, sender 컬럼을 통해 받은쪽지, 보낸쪽지 구별
@@ -135,7 +135,7 @@
 
 <img src="https://user-images.githubusercontent.com/103329327/179350477-99189449-20eb-4ef0-9279-65b76f6ab219.PNG" height="500px">
 
-- 인기글 적용 후 -> 메인에서 실시간으로 바뀜
+- 인기글 적용 후 -> <b>메인에서 실시간으로 바뀜</b>
 
 <img src="https://user-images.githubusercontent.com/103329327/179350710-c96fa61f-5888-457c-a5b4-f7b924abb729.PNG" height="500px">
 
